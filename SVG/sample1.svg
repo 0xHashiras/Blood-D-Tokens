@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="background:#ffff" width='300' height='300'>
 
     <rect id='header' x='0' y='0' width='350' height='69' opacity="90%" fill="rgba(63,0,16,0.938)"/>
-    <text id="NGO Header" x="68" y="30"  fill="#ffd6d6" style="font: 20px Zapfino;font-size:13">Blood - D - NFT</text>
+    <text id="BloodD Header" x="68" y="30"  fill="#ffd6d6" style="font: 20px Zapfino;font-size:13">Blood - D - NFT</text>
     <text id="OperationId" x="35" y="63" fill="#fecfcf" style="font: 20px Copperplate ;font-size:20"> Donor Application #91</text>
 
     <path id="plus" fill="#ee9191" stroke="#ffffff" stroke-width='3'  d='M 2 168 h 25 v -25 h 30 v 25 h 25 v 25 h -25 v 25 h -30 v -25 h-25 z' />
