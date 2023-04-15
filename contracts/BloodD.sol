@@ -19,13 +19,13 @@ contract BloodD is ERC721, AccessControl{
     uint256 public appIdCounter = 1;
 
     address constant OPOS = 0x870CF0dEDD140db8aD6507611D317eF7fBbe0721 ;
-    // address constant ONEG = ;
-    // address constant APOS = ;
-    // address constant ANEG = ;
-    // address constant BPOS = ;
-    // address constant BNEG = ;
-    // address constant ABPOS = ;
-    // address constant ABNEG = ;
+    address constant ONEG = ;
+    address constant APOS = ;
+    address constant ANEG = ;
+    address constant BPOS = ;
+    address constant BNEG = ;
+    address constant ABPOS = ;
+    address constant ABNEG = ;
 
     // enum BloodGroup {
     //     A+, A-, B+, B-, O+, O-, AB+, AB-
@@ -208,13 +208,13 @@ contract BloodD is ERC721, AccessControl{
             uint256 units = appId2Data[_appId]._bloodDonated;
             bytes32 group = keccak256(bytes(appId2Data[_appId]._bloodGroup));
             if (group == keccak256(bytes("O +ve")))  IERC20(OPOS).mint(mintTo, units);
-            // if (group == keccak256(bytes("O -ve")))  IERC20(ONEG).mint(mintTo, units);
-            // if (group == keccak256(bytes("A +ve")))  IERC20(APOS).mint(mintTo, units);
-            // if (group == keccak256(bytes("A -ve")))  IERC20(ANEG).mint(mintTo, units);
-            // if (group == keccak256(bytes("B +ve")))  IERC20(BPOS).mint(mintTo, units);
-            // if (group == keccak256(bytes("B -ve")))  IERC20(BNEG).mint(mintTo, units);
-            // if (group == keccak256(bytes("AB +ve")))  IERC20(ABPOS).mint(mintTo, units);
-            // if (group == keccak256(bytes("AB -ve")))  IERC20(ABNEG).mint(mintTo, units);
+            if (group == keccak256(bytes("O -ve")))  IERC20(ONEG).mint(mintTo, units);
+            if (group == keccak256(bytes("A +ve")))  IERC20(APOS).mint(mintTo, units);
+            if (group == keccak256(bytes("A -ve")))  IERC20(ANEG).mint(mintTo, units);
+            if (group == keccak256(bytes("B +ve")))  IERC20(BPOS).mint(mintTo, units);
+            if (group == keccak256(bytes("B -ve")))  IERC20(BNEG).mint(mintTo, units);
+            if (group == keccak256(bytes("AB +ve")))  IERC20(ABPOS).mint(mintTo, units);
+            if (group == keccak256(bytes("AB -ve")))  IERC20(ABNEG).mint(mintTo, units);
             
         }
         else 
