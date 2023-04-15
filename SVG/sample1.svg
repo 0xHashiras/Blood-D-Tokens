@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="background:#ffff" width='300' height='300'>
+
+    <rect id='header' x='0' y='0' width='350' height='69' opacity="90%" fill="rgba(63,0,16,0.938)"/>
+    <text id="NGO Header" x="68" y="30"  fill="#ffd6d6" style="font: 20px Zapfino;font-size:13">Blood - D - NFT</text>
+    <text id="OperationId" x="35" y="63" fill="#fecfcf" style="font: 20px Copperplate ;font-size:20"> Donor Application #91</text>
+
+    <path id="plus" fill="#ee9191" stroke="#ffffff" stroke-width='3'  d='M 2 168 h 25 v -25 h 30 v 25 h 25 v 25 h -25 v 25 h -30 v -25 h-25 z' />
+        
+    <g>
+        <rect id='canvas' x='0' y='71' width='140.8' height='100%' opacity="85%" fill="#ec474d"></rect> 
+        <rect id='canvas' x='141' y='71' width='100%' height='100%' opacity="85%" fill="#f3adad"></rect> 
+        <animate attributeName='opacity' dur='5s'  values='0.45; 0.55; 0.70; 0.85; 1; 0.85; 0.70; 0.55; 0.45' repeatCount='indefinite' />
+    </g>
+
+    <path id='Donor Id Border'  stroke='#000000' stroke-width='3' opacity="90%" d='M 127 90 v 30 h160 v -30 z' fill="#ffffff"/> 
+    <text id="Donor Id" x="38" y="110" style="font-family:Monospace;font-size:15">Donor Id: </text>
+    <text id="Id" x="135" y="110" style="font-family:Monospace;font-size:15">11158</text>
+
+    <path id='Date Border'  stroke='#000000' stroke-width='3' opacity="90%" d='M 127 140 v 30 h160 v -30 z' fill="#ffffff"/> 
+    <text id="Date1" x="73" y="160" style="font-family:Monospace;font-size:15">Date: </text>
+    <text id="Date2" x="135" y="160" style="font-family:Monospace;font-size:15">26-12-2023</text>
+
+    <path id='Class'  stroke='#000000' stroke-width='3' opacity="90%" d='M 127 190 v 30 h160 v -30 z' fill="#ffffff"/> 
+    <text id="Class1" x="64" y="210" style="font-family:Monospace;font-size:15">Group: </text>
+    <text id="Class2" x="135" y="210" style="font-family:Monospace;font-size:15">O +ve</text>
+
+    <path id='Units Border'  stroke='#000000' stroke-width='3' opacity="90%" d='M 127 240 v 30 h160 v -30 z' fill="#ffffff"/> 
+    <text id="Units1" x="65" y="260" style="font-family:Monospace;font-size:15">Units: </text>
+    <text id="Units2" x="27" y="275" style="font-family:Monospace;font-size:12">(350ml/Unit)</text>
+    <text id="Units3" x="135" y="260" style="font-family:Monospace;font-size:15">2</text>
+    
+</svg>
